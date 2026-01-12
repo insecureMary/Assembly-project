@@ -35,7 +35,7 @@
 }
 
 #define macro SET_NUMBER_OF_HORSES() = takes(0) returns(0){
-    0x04 //new number of horses in bytes
+    0x04
     calldataload
     [NUMBER_OF_HORSES_STORAGE_SLOT]
     sstore
